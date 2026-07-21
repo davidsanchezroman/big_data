@@ -27,7 +27,6 @@ Proyecto de análisis comparativo entre arquitecturas de bases de datos relacion
 9. [Pruebas de Rendimiento](#-pruebas-de-rendimiento)
 10. [Resultados](#-resultados)
 11. [Diagramas](#-diagramas)
-12. [Autores](#-autores)
 13. [Licencia](#-licencia)
 
 ---
@@ -472,20 +471,6 @@ docker exec -it redsalud_mongodb mongosh -u admin -p admin123 --authenticationDa
 
 ---
 
-## 👥 Autores
-
-| Nombre | Rol | Email |
-|--------|-----|-------|
-| [Tu Nombre 1] | Líder de proyecto | email1@example.com |
-| [Tu Nombre 2] | DBA & Implementación | email2@example.com |
-| [Tu Nombre 3] | Analista & Documentación | email3@example.com |
-
-**Asignatura:** BIG DATA – IF404IINF
-**Docente:** [Nombre del docente]
-**Institución:** IP San Sebastián
-**Fecha:** Julio 2026
-
----
 
 ## 📄 Licencia
 
@@ -493,14 +478,6 @@ Este proyecto es de carácter académico y fue desarrollado para la Evaluación 
 
 ---
 
-## 🙏 Agradecimientos
-
-- A nuestro docente por la guía en el análisis de arquitecturas distribuidas
-- A la comunidad de **Docker** por simplificar el despliegue
-- A la documentación oficial de **PostgreSQL** y **MongoDB**
-- A las empresas chilenas (MercadoLibre, Cornershop) que sirvieron como referencia de casos reales
-
----
 
 ## 📞 Contacto
 
