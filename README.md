@@ -505,8 +505,8 @@ Este proyecto es de carácter académico y fue desarrollado para la Evaluación 
 ## 📞 Contacto
 
 Para preguntas o sugerencias sobre este proyecto:
-- **Email:** [tu-email@example.com]
-- **GitHub:** [@tu-usuario](https://github.com/tu-usuario)
+- **Email:** dsanchezroman9@gmail.com
+- **GitHub:** https://github.com/davidsanchezroman
 
 ---
 
