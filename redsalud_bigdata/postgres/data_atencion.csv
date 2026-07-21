@@ -1,0 +1,26 @@
+id_atencion,id_paciente,id_medico,fecha_atencion,tipo_atencion,diagnostico,monto,estado,tiempo_respuesta_ms,region
+1,1,1,2024-01-15 08:30:00,urgencia,Hipertension arterial,45000,completada,120,Metropolitana
+2,2,2,2024-01-15 09:15:00,teleconsulta,Control diabetico,28000,completada,85,Valparaiso
+3,3,1,2024-01-15 10:00:00,control,Chequeo general,32000,completada,150,Metropolitana
+4,4,3,2024-01-15 10:45:00,urgencia,Dolor toracico,65000,completada,95,Biobio
+5,5,2,2024-01-15 11:30:00,teleconsulta,Resfriado comun,18000,completada,70,Metropolitana
+6,6,4,2024-01-15 12:00:00,control,Embarazo control,35000,completada,110,Maule
+7,7,1,2024-01-15 12:45:00,urgencia,Fractura brazo,89000,completada,180,Metropolitana
+8,8,3,2024-01-16 08:00:00,teleconsulta,Ansiedad,32000,completada,90,Valparaiso
+9,9,2,2024-01-16 08:30:00,control,Presion arterial,25000,completada,100,Metropolitana
+10,10,4,2024-01-16 09:00:00,urgencia,Apendicitis,120000,completada,75,Metropolitana
+11,11,1,2024-01-16 09:45:00,control,Diabetes seguimiento,28000,completada,130,Antofagasta
+12,12,3,2024-01-16 10:30:00,teleconsulta,Alergia,22000,completada,65,Araucania
+13,13,2,2024-01-16 11:00:00,urgencia,Asma crisis,48000,completada,140,Metropolitana
+14,14,4,2024-01-16 11:30:00,control,Gripe,15000,completada,85,Valparaiso
+15,15,1,2024-01-16 12:00:00,teleconsulta,Infeccion urinaria,26000,completada,80,Metropolitana
+16,16,3,2024-01-16 12:30:00,urgencia,Reaccion alergica,55000,completada,105,Metropolitana
+17,17,2,2024-01-16 13:00:00,control,Vacunacion,12000,completada,60,O'Higgins
+18,18,4,2024-01-16 13:30:00,teleconsulta,Reflujo,24000,completada,75,Metropolitana
+19,19,1,2024-01-17 08:00:00,urgencia,Esguince tobillo,42000,completada,125,Coquimbo
+20,20,3,2024-01-17 08:30:00,control,Revision post operatoria,38000,completada,115,Metropolitana
+21,1,2,2024-01-17 09:00:00,teleconsulta,Seguimiento hipertension,25000,completada,70,Metropolitana
+22,3,4,2024-01-17 09:30:00,urgencia,Migrana severa,36000,completada,95,Metropolitana
+23,5,1,2024-01-17 10:00:00,control,Examen sanguineo,30000,completada,150,Valparaiso
+24,7,3,2024-01-17 10:30:00,teleconsulta,Control asma,22000,completada,80,Metropolitana
+25,9,2,2024-01-17 11:00:00,urgencia,Gastritis,28000,completada,110,Metropolitana

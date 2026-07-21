@@ -1,0 +1,527 @@
+[
+  {
+    "id_atencion": 1,
+    "fecha_atencion": "2024-01-15T08:30:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Hipertension arterial descompensada",
+    "monto": 45000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 120,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 1,
+      "nombre": "Maria Gonzalez Silva",
+      "rut": "12345678-9",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 1,
+      "nombre": "Dr. Ricardo Fuentes Mendez",
+      "especialidad": "Cardiologia"
+    }
+  },
+  {
+    "id_atencion": 2,
+    "fecha_atencion": "2024-01-15T09:15:00Z",
+    "tipo_atencion": "teleconsulta",
+    "diagnostico": "Control diabetico tipo 2",
+    "monto": 28000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 85,
+    "region": "Valparaiso",
+    "paciente": {
+      "id_paciente": 2,
+      "nombre": "Juan Perez Vargas",
+      "rut": "15678901-2",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 2,
+      "nombre": "Dra. Patricia Salazar Rojas",
+      "especialidad": "Medicina General"
+    }
+  },
+  {
+    "id_atencion": 3,
+    "fecha_atencion": "2024-01-15T10:00:00Z",
+    "tipo_atencion": "control",
+    "diagnostico": "Chequeo general anual",
+    "monto": 32000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 150,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 3,
+      "nombre": "Ana Munoz Rojas",
+      "rut": "18901234-5",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 1,
+      "nombre": "Dr. Ricardo Fuentes Mendez",
+      "especialidad": "Cardiologia"
+    }
+  },
+  {
+    "id_atencion": 4,
+    "fecha_atencion": "2024-01-15T10:45:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Dolor toracico agudo",
+    "monto": 65000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 95,
+    "region": "Biobio",
+    "paciente": {
+      "id_paciente": 4,
+      "nombre": "Pedro Soto Mendez",
+      "rut": "20123456-7",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 3,
+      "nombre": "Dr. Mauricio Concha Vidal",
+      "especialidad": "Pediatria"
+    }
+  },
+  {
+    "id_atencion": 5,
+    "fecha_atencion": "2024-01-15T11:30:00Z",
+    "tipo_atencion": "teleconsulta",
+    "diagnostico": "Resfriado comun",
+    "monto": 18000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 70,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 5,
+      "nombre": "Carla Diaz Castro",
+      "rut": "11222333-4",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 2,
+      "nombre": "Dra. Patricia Salazar Rojas",
+      "especialidad": "Medicina General"
+    }
+  },
+  {
+    "id_atencion": 6,
+    "fecha_atencion": "2024-01-15T12:00:00Z",
+    "tipo_atencion": "control",
+    "diagnostico": "Control prenatal",
+    "monto": 35000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 110,
+    "region": "Maule",
+    "paciente": {
+      "id_paciente": 6,
+      "nombre": "Luis Ramirez Torres",
+      "rut": "22333444-5",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 4,
+      "nombre": "Dra. Lorena Espinoza Gutierrez",
+      "especialidad": "Urgencias"
+    }
+  },
+  {
+    "id_atencion": 7,
+    "fecha_atencion": "2024-01-15T12:45:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Fractura brazo derecho",
+    "monto": 89000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 180,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 7,
+      "nombre": "Sofia Lopez Henriquez",
+      "rut": "33444555-6",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 1,
+      "nombre": "Dr. Ricardo Fuentes Mendez",
+      "especialidad": "Cardiologia"
+    }
+  },
+  {
+    "id_atencion": 8,
+    "fecha_atencion": "2024-01-16T08:00:00Z",
+    "tipo_atencion": "teleconsulta",
+    "diagnostico": "Crisis de ansiedad",
+    "monto": 32000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 90,
+    "region": "Valparaiso",
+    "paciente": {
+      "id_paciente": 8,
+      "nombre": "Diego Morales Fuentes",
+      "rut": "44555666-7",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 3,
+      "nombre": "Dr. Mauricio Concha Vidal",
+      "especialidad": "Pediatria"
+    }
+  },
+  {
+    "id_atencion": 9,
+    "fecha_atencion": "2024-01-16T08:30:00Z",
+    "tipo_atencion": "control",
+    "diagnostico": "Seguimiento presion arterial",
+    "monto": 25000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 100,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 9,
+      "nombre": "Valentina Rojas Diaz",
+      "rut": "55666777-8",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 2,
+      "nombre": "Dra. Patricia Salazar Rojas",
+      "especialidad": "Medicina General"
+    }
+  },
+  {
+    "id_atencion": 10,
+    "fecha_atencion": "2024-01-16T09:00:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Apendicitis aguda",
+    "monto": 120000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 75,
+    "region": "Antofagasta",
+    "paciente": {
+      "id_paciente": 10,
+      "nombre": "Andres Castillo Vega",
+      "rut": "66777888-9",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 4,
+      "nombre": "Dra. Lorena Espinoza Gutierrez",
+      "especialidad": "Urgencias"
+    }
+  },
+  {
+    "id_atencion": 11,
+    "fecha_atencion": "2024-01-16T09:45:00Z",
+    "tipo_atencion": "control",
+    "diagnostico": "Diabetes seguimiento",
+    "monto": 28000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 130,
+    "region": "Araucania",
+    "paciente": {
+      "id_paciente": 11,
+      "nombre": "Francisca Vera Salazar",
+      "rut": "77888999-0",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 1,
+      "nombre": "Dr. Ricardo Fuentes Mendez",
+      "especialidad": "Cardiologia"
+    }
+  },
+  {
+    "id_atencion": 12,
+    "fecha_atencion": "2024-01-16T10:30:00Z",
+    "tipo_atencion": "teleconsulta",
+    "diagnostico": "Alergia estacional",
+    "monto": 22000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 65,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 12,
+      "nombre": "Matias Ortiz Romero",
+      "rut": "88999000-1",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 3,
+      "nombre": "Dr. Mauricio Concha Vidal",
+      "especialidad": "Pediatria"
+    }
+  },
+  {
+    "id_atencion": 13,
+    "fecha_atencion": "2024-01-16T11:00:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Crisis asmatica severa",
+    "monto": 48000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 140,
+    "region": "OHiggins",
+    "paciente": {
+      "id_paciente": 13,
+      "nombre": "Camila Navarrete Pinto",
+      "rut": "99000111-2",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 2,
+      "nombre": "Dra. Patricia Salazar Rojas",
+      "especialidad": "Medicina General"
+    }
+  },
+  {
+    "id_atencion": 14,
+    "fecha_atencion": "2024-01-16T11:30:00Z",
+    "tipo_atencion": "control",
+    "diagnostico": "Gripe comun",
+    "monto": 15000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 85,
+    "region": "Coquimbo",
+    "paciente": {
+      "id_paciente": 14,
+      "nombre": "Sebastian Cruz Aguilar",
+      "rut": "10111222-3",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 4,
+      "nombre": "Dra. Lorena Espinoza Gutierrez",
+      "especialidad": "Urgencias"
+    }
+  },
+  {
+    "id_atencion": 15,
+    "fecha_atencion": "2024-01-16T12:00:00Z",
+    "tipo_atencion": "teleconsulta",
+    "diagnostico": "Infeccion urinaria",
+    "monto": 26000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 80,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 15,
+      "nombre": "Isidora Bravo Leiva",
+      "rut": "11122333-4",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 1,
+      "nombre": "Dr. Ricardo Fuentes Mendez",
+      "especialidad": "Cardiologia"
+    }
+  },
+  {
+    "id_atencion": 16,
+    "fecha_atencion": "2024-01-16T12:30:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Reaccion alergica severa",
+    "monto": 55000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 105,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 16,
+      "nombre": "Felipe Vargas Mendez",
+      "rut": "12133444-5",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 3,
+      "nombre": "Dr. Mauricio Concha Vidal",
+      "especialidad": "Pediatria"
+    }
+  },
+  {
+    "id_atencion": 17,
+    "fecha_atencion": "2024-01-16T13:00:00Z",
+    "tipo_atencion": "control",
+    "diagnostico": "Vacunacion influenza",
+    "monto": 12000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 60,
+    "region": "Valparaiso",
+    "paciente": {
+      "id_paciente": 17,
+      "nombre": "Constanza Reyes Palma",
+      "rut": "13144555-6",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 2,
+      "nombre": "Dra. Patricia Salazar Rojas",
+      "especialidad": "Medicina General"
+    }
+  },
+  {
+    "id_atencion": 18,
+    "fecha_atencion": "2024-01-16T13:30:00Z",
+    "tipo_atencion": "teleconsulta",
+    "diagnostico": "Reflujo gastroesofagico",
+    "monto": 24000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 75,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 18,
+      "nombre": "Rodrigo Salinas Toro",
+      "rut": "14155666-7",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 4,
+      "nombre": "Dra. Lorena Espinoza Gutierrez",
+      "especialidad": "Urgencias"
+    }
+  },
+  {
+    "id_atencion": 19,
+    "fecha_atencion": "2024-01-17T08:00:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Esguince tobillo izquierdo",
+    "monto": 42000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 125,
+    "region": "Biobio",
+    "paciente": {
+      "id_paciente": 19,
+      "nombre": "Macarena Silva Carrasco",
+      "rut": "15166777-8",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 1,
+      "nombre": "Dr. Ricardo Fuentes Mendez",
+      "especialidad": "Cardiologia"
+    }
+  },
+  {
+    "id_atencion": 20,
+    "fecha_atencion": "2024-01-17T08:30:00Z",
+    "tipo_atencion": "control",
+    "diagnostico": "Revision post operatoria",
+    "monto": 38000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 115,
+    "region": "Maule",
+    "paciente": {
+      "id_paciente": 20,
+      "nombre": "Ignacio Mendez Jara",
+      "rut": "16177888-9",
+      "genero": "Masculino"
+    },
+    "medico": {
+      "id_medico": 3,
+      "nombre": "Dr. Mauricio Concha Vidal",
+      "especialidad": "Pediatria"
+    }
+  },
+  {
+    "id_atencion": 21,
+    "fecha_atencion": "2024-01-17T09:00:00Z",
+    "tipo_atencion": "teleconsulta",
+    "diagnostico": "Seguimiento hipertension",
+    "monto": 25000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 70,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 1,
+      "nombre": "Maria Gonzalez Silva",
+      "rut": "12345678-9",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 2,
+      "nombre": "Dra. Patricia Salazar Rojas",
+      "especialidad": "Medicina General"
+    }
+  },
+  {
+    "id_atencion": 22,
+    "fecha_atencion": "2024-01-17T09:30:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Migrana severa",
+    "monto": 36000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 95,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 3,
+      "nombre": "Ana Munoz Rojas",
+      "rut": "18901234-5",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 4,
+      "nombre": "Dra. Lorena Espinoza Gutierrez",
+      "especialidad": "Urgencias"
+    }
+  },
+  {
+    "id_atencion": 23,
+    "fecha_atencion": "2024-01-17T10:00:00Z",
+    "tipo_atencion": "control",
+    "diagnostico": "Examen sanguineo completo",
+    "monto": 30000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 150,
+    "region": "Valparaiso",
+    "paciente": {
+      "id_paciente": 5,
+      "nombre": "Carla Diaz Castro",
+      "rut": "11222333-4",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 1,
+      "nombre": "Dr. Ricardo Fuentes Mendez",
+      "especialidad": "Cardiologia"
+    }
+  },
+  {
+    "id_atencion": 24,
+    "fecha_atencion": "2024-01-17T10:30:00Z",
+    "tipo_atencion": "teleconsulta",
+    "diagnostico": "Control asma bronquial",
+    "monto": 22000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 80,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 7,
+      "nombre": "Sofia Lopez Henriquez",
+      "rut": "33444555-6",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 3,
+      "nombre": "Dr. Mauricio Concha Vidal",
+      "especialidad": "Pediatria"
+    }
+  },
+  {
+    "id_atencion": 25,
+    "fecha_atencion": "2024-01-17T11:00:00Z",
+    "tipo_atencion": "urgencia",
+    "diagnostico": "Gastritis aguda",
+    "monto": 28000,
+    "estado": "completada",
+    "tiempo_respuesta_ms": 110,
+    "region": "Metropolitana",
+    "paciente": {
+      "id_paciente": 9,
+      "nombre": "Valentina Rojas Diaz",
+      "rut": "55666777-8",
+      "genero": "Femenino"
+    },
+    "medico": {
+      "id_medico": 2,
+      "nombre": "Dra. Patricia Salazar Rojas",
+      "especialidad": "Medicina General"
+    }
+  }
+]

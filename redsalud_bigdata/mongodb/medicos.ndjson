@@ -1,0 +1,4 @@
+{"id_medico": 1, "nombre": "Dr. Ricardo Fuentes Mendez", "especialidad": "Cardiologia", "region": "Metropolitana", "disponibilidad_24_7": true}
+{"id_medico": 2, "nombre": "Dra. Patricia Salazar Rojas", "especialidad": "Medicina General", "region": "Metropolitana", "disponibilidad_24_7": true}
+{"id_medico": 3, "nombre": "Dr. Mauricio Concha Vidal", "especialidad": "Pediatria", "region": "Valparaiso", "disponibilidad_24_7": true}
+{"id_medico": 4, "nombre": "Dra. Lorena Espinoza Gutierrez", "especialidad": "Urgencias", "region": "Metropolitana", "disponibilidad_24_7": true}
