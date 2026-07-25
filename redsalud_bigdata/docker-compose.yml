@@ -9,8 +9,13 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./postgres:/docker-entrypoint-initdb.d/init.sql
+      - ./postgres:/docker-entrypoint-initdb.d/01_init.sql
       - postgres_data:/var/lib/postgresql/data
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 4g
     restart: unless-stopped
 
   mongodb:
